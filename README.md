@@ -16,4 +16,4 @@
 Проект предназначен для демонстрации возможностей адаптивного дизайна и интеграции видео в текстовый контент, создавая уникальный и интерактивный пользовательский опыт.
 
 ### Ссылка на проект на GitHub Pages:
-[Посмотреть проект на GitHub Pages] (https://irina-pr98.github.io/Adaptive-Video-Segments)
+[Посмотреть проект на GitHub Pages](https://irina-pr98.github.io/Adaptive-Video-Segments)
