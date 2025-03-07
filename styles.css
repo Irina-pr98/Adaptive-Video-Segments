@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.text-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.text-block span {
+    font-size: 1.5em;
+}
+
+.animated-rectangle {
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.segment-1 {
+    width: 120px;
+}
+
+.segment-2 {
+    width: 160px;
+}
+
+.segment-3 {
+    width: 140px;
+}
+
+.segment-4 {
+    width: 180px;
+}
+
+.animated-rectangle video {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 600px;
+    object-fit: cover;
+}
+
+.segment-1 video {
+    left: 0;
+}
+
+.segment-2 video {
+    left: -120px;
+}
+
+.segment-3 video {
+    left: -280px;
+}
+
+.segment-4 video {
+    left: -420px;
+}
+
+@media (max-width: 768px) {
+    .text-block {
+        gap: 5px;
+    }
+
+    .text-block span {
+        font-size: 1.2em;
+    }
+
+    .segment-1 {
+        width: 100px;
+    }
+
+    .segment-2 {
+        width: 130px;
+    }
+
+    .segment-3 {
+        width: 110px;
+    }
+
+    .segment-4 {
+        width: 140px;
+    }
+
+    .animated-rectangle video {
+        width: 470px;
+    }
+
+    .segment-2 video {
+        left: -100px;
+    }
+
+    .segment-3 video {
+        left: -230px;
+    }
+
+    .segment-4 video {
+        left: -340px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-block {
+        gap: 3px;
+    }
+
+    .text-block span {
+        font-size: 1em;
+    }
+
+    .segment-1 {
+        width: 80px;
+    }
+
+    .segment-2 {
+        width: 100px;
+    }
+
+    .segment-3 {
+        width: 90px;
+    }
+
+    .segment-4 {
+        width: 120px;
+    }
+
+    .animated-rectangle video {
+        width: 390px;
+    }
+
+    .segment-2 video {
+        left: -80px;
+    }
+
+    .segment-3 video {
+        left: -180px;
+    }
+
+    .segment-4 video {
+        left: -270px;
+    }
+}
